@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <title>Site is down for maintenance</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>서버점검 안내</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        body { text-align: center; padding: 10%; font: 20px Helvetica, sans-serif; color: #333; word-break: keep-all;}
-        h1 { font-size: 50px; margin: 0; }
-        article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
-        a { color: #dc8100; text-decoration: none; }
-        a:hover { color: #333; text-decoration: none; }
-        @media only screen and (max-width : 480px) {
-            h1 { font-size: 40px; }
+      body {
+        text-align: center;
+        padding: 5% 10%;
+        font: 16px Helvetica, sans-serif;
+        color: #333;
+        word-break: keep-all;
+      }
+      h1 {
+        font-size: 45px;
+        margin: 0;
+        text-align: center;
+      }
+      article {
+        display: block;
+        max-width: 650px;
+        margin: 0 auto;
+      }
+      a {
+        color: #258aeb;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #0d63b5;
+        text-decoration: none;
+      }
+      ul {
+        font-size: 20px;
+        display: inline-block;
+        text-align: left;
+      }
+      ul li {
+        margin-bottom: 8px;
+      }
+      @media only screen and (max-width: 480px) {
+        h1 {
+          font-size: 40px;
         }
+      }
+      #logo {
+        padding: 12px 0;
+        width: 100px;
+      }
     </style>
   </head>
   <body>
+    <!-- <img id="logo" src="logo.png" alt="경북온 로고" /> -->
     <article>
-      <h1>작업 안내</h1>
-      <p>보다 안정적인 서비스를 제공하기 위해 2023년 2월 6일(월) 04:00 부터 서버 점검 및 기능 점검 중입니다.</p>
-      <p>서비스 이용에 불편을 드려 죄송합니다. 최대한 빠르고 안전하게 점검을 완료하겠습니다.</p>
+      <h1>현재 서버 점검중입니다.</h1>
+      <p>보다 안정적인 서비스 제공을 위해 점검을 진행합니다.</p>
+      <ul>
+        <li><b>점검시간:</b> 4월 16일(일) 오후 1시~10시</li>
+        <li><b>점검이유:</b> 서버 점검 및 기능 점검</li>
+      </ul>
+
+      <p>
+        점검 시간은 상황에 따라 연장될 수도 있습니다. 서비스 이용에 불편을 드려
+        죄송합니다. <br />최대한 빠르고 안전하게 점검을 완료하겠습니다.
+      </p>
+      <p>
+        문의사항이 있으시면 믹스<a
+          id="signature"
+          href="mailto:contact@parti.mx"
+          ><contact@parti.mx></a
+        >으로 연락바랍니다.
+      </p>
     </article>
   </body>
 </html>
